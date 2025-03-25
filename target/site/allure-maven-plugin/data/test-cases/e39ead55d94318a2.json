@@ -1,0 +1,138 @@
+{
+  "uid" : "e39ead55d94318a2",
+  "name" : "Создание уникального пользователя",
+  "fullName" : "users.CreateUserTest.createUniqueUserTest",
+  "historyId" : "d12620751c10203163f72dc5ef1a6554",
+  "time" : {
+    "start" : 1742933188641,
+    "stop" : 1742933189708,
+    "duration" : 1067
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать нового пользователя",
+      "time" : {
+        "start" : 1742933188641,
+        "stop" : 1742933188959,
+        "duration" : 318
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создаём пользователя ru.praktikum.yandex.model.User@7b24d5e4",
+        "time" : {
+          "start" : 1742933188641,
+          "stop" : 1742933188959,
+          "duration" : 318
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "ru.praktikum.yandex.model.User@7b24d5e4"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.yandex.model.User@7b24d5e4"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удалить пользователя",
+      "time" : {
+        "start" : 1742933188959,
+        "stop" : 1742933189708,
+        "duration" : 749
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Удаляем пользователя c токеном {token}",
+        "time" : {
+          "start" : 1742933188959,
+          "stop" : 1742933189708,
+          "duration" : 749
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "accessToken",
+          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTMwY2M0OWVkMjgwMDAxYjViMTY2YiIsImlhdCI6MTc0MjkzMzE4OCwiZXhwIjoxNzQyOTM0Mzg4fQ.ATZZUW-NF-3f5N7rZVZaJy-0Crm3NPFj5XMe7plWERU"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTMwY2M0OWVkMjgwMDAxYjViMTY2YiIsImlhdCI6MTc0MjkzMzE4OCwiZXhwIjoxNzQyOTM0Mzg4fQ.ATZZUW-NF-3f5N7rZVZaJy-0Crm3NPFj5XMe7plWERU"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "users"
+  }, {
+    "name" : "testClass",
+    "value" : "users.CreateUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUniqueUserTest"
+  }, {
+    "name" : "suite",
+    "value" : "users.CreateUserTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43P5CN5"
+  }, {
+    "name" : "thread",
+    "value" : "9512@DESKTOP-43P5CN5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e39ead55d94318a2.json",
+  "parameterValues" : [ ]
+}

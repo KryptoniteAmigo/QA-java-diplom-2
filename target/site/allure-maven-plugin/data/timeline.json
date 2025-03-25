@@ -1,0 +1,208 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-43P5CN5",
+    "children" : [ {
+      "name" : "9512@DESKTOP-43P5CN5.main(1)",
+      "children" : [ {
+        "name" : "Создание уникального пользователя",
+        "uid" : "e39ead55d94318a2",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933188641,
+          "stop" : 1742933189708,
+          "duration" : 1067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание уже зарегистрированного пользователя",
+        "uid" : "6a8527563314772",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933187309,
+          "stop" : 1742933188640,
+          "duration" : 1331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа с авторизацией и валидными ингредиентами",
+        "uid" : "7fb982c79e781cdb",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933177614,
+          "stop" : 1742933181442,
+          "duration" : 3828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Логин с неверным логином и паролем",
+        "uid" : "785cee50358ed365",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933191046,
+          "stop" : 1742933191310,
+          "duration" : 264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Логин под существующим пользователем",
+        "uid" : "deea3ee3e0965b30",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933189709,
+          "stop" : 1742933191046,
+          "duration" : 1337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа с невалидным хешем ингредиента",
+        "uid" : "15acabf985e3b5b7",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933174965,
+          "stop" : 1742933176305,
+          "duration" : 1340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Получение заказов авторизованным пользователем",
+        "uid" : "e5021160f1adb967",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933181444,
+          "stop" : 1742933183609,
+          "duration" : 2165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "updateUserInfoWithLoginTest",
+        "uid" : "87d1c00d359bb9cc",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933191311,
+          "stop" : 1742933192958,
+          "duration" : 1647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа без ингредиентов",
+        "uid" : "735e5d6cb2450444",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933171561,
+          "stop" : 1742933174920,
+          "duration" : 3359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание пользователя с отсутствующим параметром",
+        "uid" : "b7e81b099def50e8",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933185775,
+          "stop" : 1742933187044,
+          "duration" : 1269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа без авторизации",
+        "uid" : "5fe3c5cd63ad7dd3",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933176312,
+          "stop" : 1742933177612,
+          "duration" : 1300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "updateUserInfoWithoutLoginTest",
+        "uid" : "de7995704242c767",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933192962,
+          "stop" : 1742933195631,
+          "duration" : 2669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание пользователя с отсутствующим параметром",
+        "uid" : "e67afd09fc01f2b0",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933185512,
+          "stop" : 1742933185774,
+          "duration" : 262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Получение заказов без авторизации",
+        "uid" : "9979b213859730d4",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933183610,
+          "stop" : 1742933185504,
+          "duration" : 1894
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание пользователя с отсутствующим параметром",
+        "uid" : "abb40549654fb8bb",
+        "parentUid" : "27994e37a947b81f9a4a4fea37678003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742933187045,
+          "stop" : 1742933187308,
+          "duration" : 263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27994e37a947b81f9a4a4fea37678003"
+    } ],
+    "uid" : "f2d82ff335a068778d1d7cc02ac49c6a"
+  } ]
+}

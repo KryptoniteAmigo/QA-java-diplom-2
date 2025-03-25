@@ -1,0 +1,216 @@
+{
+  "uid" : "de7995704242c767",
+  "name" : "updateUserInfoWithoutLoginTest",
+  "fullName" : "users.UpdateUserTest.updateUserInfoWithoutLoginTest",
+  "historyId" : "8afe448f5173b974ba756a805bde54ab",
+  "time" : {
+    "start" : 1742933192962,
+    "stop" : 1742933195631,
+    "duration" : 2669
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать нового пользователя",
+      "time" : {
+        "start" : 1742933192963,
+        "stop" : 1742933193289,
+        "duration" : 326
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создаём пользователя ru.praktikum.yandex.model.User@43b3b1b0",
+        "time" : {
+          "start" : 1742933192963,
+          "stop" : 1742933193289,
+          "duration" : 326
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "ru.praktikum.yandex.model.User@43b3b1b0"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.yandex.model.User@43b3b1b0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Авторизация пользователя",
+      "time" : {
+        "start" : 1742933193289,
+        "stop" : 1742933194628,
+        "duration" : 1339
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Логиним пользователя ru.praktikum.yandex.model.User@43b3b1b0",
+        "time" : {
+          "start" : 1742933193289,
+          "stop" : 1742933194628,
+          "duration" : 1339
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "ru.praktikum.yandex.model.User@43b3b1b0"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.yandex.model.User@43b3b1b0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Обновление данных пользователя",
+      "time" : {
+        "start" : 1742933194628,
+        "stop" : 1742933194895,
+        "duration" : 267
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Обновляем данные пользователя ru.praktikum.yandex.model.User@3810806c с токеном {token}",
+        "time" : {
+          "start" : 1742933194628,
+          "stop" : 1742933194895,
+          "duration" : 267
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "ru.praktikum.yandex.model.User@3810806c"
+        }, {
+          "name" : "accessToken",
+          "value" : ""
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.yandex.model.User@3810806c"
+      }, {
+        "name" : "accessToken",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удалить пользователя",
+      "time" : {
+        "start" : 1742933194896,
+        "stop" : 1742933195631,
+        "duration" : 735
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Удаляем пользователя c токеном {token}",
+        "time" : {
+          "start" : 1742933194896,
+          "stop" : 1742933195631,
+          "duration" : 735
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "accessToken",
+          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTMwY2M5OWVkMjgwMDAxYjViMTY3NCIsImlhdCI6MTc0MjkzMzE5MywiZXhwIjoxNzQyOTM0MzkzfQ.OtvEBPv0hzBrk_nImduGQrUzgBAWIV447soxM7eknWs"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTMwY2M5OWVkMjgwMDAxYjViMTY3NCIsImlhdCI6MTc0MjkzMzE5MywiZXhwIjoxNzQyOTM0MzkzfQ.OtvEBPv0hzBrk_nImduGQrUzgBAWIV447soxM7eknWs"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "users"
+  }, {
+    "name" : "testClass",
+    "value" : "users.UpdateUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "updateUserInfoWithoutLoginTest"
+  }, {
+    "name" : "suite",
+    "value" : "users.UpdateUserTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43P5CN5"
+  }, {
+    "name" : "thread",
+    "value" : "9512@DESKTOP-43P5CN5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de7995704242c767.json",
+  "parameterValues" : [ ]
+}
