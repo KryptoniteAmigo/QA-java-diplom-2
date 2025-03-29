@@ -1,0 +1,180 @@
+{
+  "uid" : "735e5d6cb2450444",
+  "name" : "Создание заказа без ингредиентов",
+  "fullName" : "orders.CreateOrderTest.createOrderWithNoIngredientsTest",
+  "historyId" : "20df61325a800a69bbfcae6dceb2b4f4",
+  "time" : {
+    "start" : 1742933171561,
+    "stop" : 1742933174920,
+    "duration" : 3359
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать нового пользователя",
+      "time" : {
+        "start" : 1742933171669,
+        "stop" : 1742933173862,
+        "duration" : 2193
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создаём пользователя ru.praktikum.yandex.model.User@618ad2aa",
+        "time" : {
+          "start" : 1742933171672,
+          "stop" : 1742933173861,
+          "duration" : 2189
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "ru.praktikum.yandex.model.User@618ad2aa"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.yandex.model.User@618ad2aa"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Создать новый заказ",
+      "time" : {
+        "start" : 1742933173910,
+        "stop" : 1742933174209,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создать заказ",
+        "time" : {
+          "start" : 1742933173911,
+          "stop" : 1742933174209,
+          "duration" : 298
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "order",
+          "value" : "ru.praktikum.yandex.model.Order@59a2bed1"
+        }, {
+          "name" : "accessToken",
+          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTMwY2I1OWVkMjgwMDAxYjViMTY1NyIsImlhdCI6MTc0MjkzMzE3MywiZXhwIjoxNzQyOTM0MzczfQ.nAeaDLcyGnxYIZtM1sFkEBVOyDgZW0hn9_XI-7DW2IQ"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "ru.praktikum.yandex.model.Order@59a2bed1"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTMwY2I1OWVkMjgwMDAxYjViMTY1NyIsImlhdCI6MTc0MjkzMzE3MywiZXhwIjoxNzQyOTM0MzczfQ.nAeaDLcyGnxYIZtM1sFkEBVOyDgZW0hn9_XI-7DW2IQ"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удалить пользователя",
+      "time" : {
+        "start" : 1742933174210,
+        "stop" : 1742933174919,
+        "duration" : 709
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Удаляем пользователя c токеном {token}",
+        "time" : {
+          "start" : 1742933174210,
+          "stop" : 1742933174919,
+          "duration" : 709
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "accessToken",
+          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTMwY2I1OWVkMjgwMDAxYjViMTY1NyIsImlhdCI6MTc0MjkzMzE3MywiZXhwIjoxNzQyOTM0MzczfQ.nAeaDLcyGnxYIZtM1sFkEBVOyDgZW0hn9_XI-7DW2IQ"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTMwY2I1OWVkMjgwMDAxYjViMTY1NyIsImlhdCI6MTc0MjkzMzE3MywiZXhwIjoxNzQyOTM0MzczfQ.nAeaDLcyGnxYIZtM1sFkEBVOyDgZW0hn9_XI-7DW2IQ"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "orders"
+  }, {
+    "name" : "testClass",
+    "value" : "orders.CreateOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithNoIngredientsTest"
+  }, {
+    "name" : "suite",
+    "value" : "orders.CreateOrderTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43P5CN5"
+  }, {
+    "name" : "thread",
+    "value" : "9512@DESKTOP-43P5CN5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "735e5d6cb2450444.json",
+  "parameterValues" : [ ]
+}

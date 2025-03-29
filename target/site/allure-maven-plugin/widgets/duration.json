@@ -1,0 +1,151 @@
+[ {
+  "uid" : "e39ead55d94318a2",
+  "name" : "Создание уникального пользователя",
+  "time" : {
+    "start" : 1742933188641,
+    "stop" : 1742933189708,
+    "duration" : 1067
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "deea3ee3e0965b30",
+  "name" : "Логин под существующим пользователем",
+  "time" : {
+    "start" : 1742933189709,
+    "stop" : 1742933191046,
+    "duration" : 1337
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "785cee50358ed365",
+  "name" : "Логин с неверным логином и паролем",
+  "time" : {
+    "start" : 1742933191046,
+    "stop" : 1742933191310,
+    "duration" : 264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a8527563314772",
+  "name" : "Создание уже зарегистрированного пользователя",
+  "time" : {
+    "start" : 1742933187309,
+    "stop" : 1742933188640,
+    "duration" : 1331
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fb982c79e781cdb",
+  "name" : "Создание заказа с авторизацией и валидными ингредиентами",
+  "time" : {
+    "start" : 1742933177614,
+    "stop" : 1742933181442,
+    "duration" : 3828
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abb40549654fb8bb",
+  "name" : "Создание пользователя с отсутствующим параметром",
+  "time" : {
+    "start" : 1742933187045,
+    "stop" : 1742933187308,
+    "duration" : 263
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "735e5d6cb2450444",
+  "name" : "Создание заказа без ингредиентов",
+  "time" : {
+    "start" : 1742933171561,
+    "stop" : 1742933174920,
+    "duration" : 3359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e67afd09fc01f2b0",
+  "name" : "Создание пользователя с отсутствующим параметром",
+  "time" : {
+    "start" : 1742933185512,
+    "stop" : 1742933185774,
+    "duration" : 262
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fe3c5cd63ad7dd3",
+  "name" : "Создание заказа без авторизации",
+  "time" : {
+    "start" : 1742933176312,
+    "stop" : 1742933177612,
+    "duration" : 1300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9979b213859730d4",
+  "name" : "Получение заказов без авторизации",
+  "time" : {
+    "start" : 1742933183610,
+    "stop" : 1742933185504,
+    "duration" : 1894
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de7995704242c767",
+  "name" : "updateUserInfoWithoutLoginTest",
+  "time" : {
+    "start" : 1742933192962,
+    "stop" : 1742933195631,
+    "duration" : 2669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87d1c00d359bb9cc",
+  "name" : "updateUserInfoWithLoginTest",
+  "time" : {
+    "start" : 1742933191311,
+    "stop" : 1742933192958,
+    "duration" : 1647
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5021160f1adb967",
+  "name" : "Получение заказов авторизованным пользователем",
+  "time" : {
+    "start" : 1742933181444,
+    "stop" : 1742933183609,
+    "duration" : 2165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15acabf985e3b5b7",
+  "name" : "Создание заказа с невалидным хешем ингредиента",
+  "time" : {
+    "start" : 1742933174965,
+    "stop" : 1742933176305,
+    "duration" : 1340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7e81b099def50e8",
+  "name" : "Создание пользователя с отсутствующим параметром",
+  "time" : {
+    "start" : 1742933185775,
+    "stop" : 1742933187044,
+    "duration" : 1269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

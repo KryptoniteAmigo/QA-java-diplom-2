@@ -1,0 +1,216 @@
+{
+  "uid" : "87d1c00d359bb9cc",
+  "name" : "updateUserInfoWithLoginTest",
+  "fullName" : "users.UpdateUserTest.updateUserInfoWithLoginTest",
+  "historyId" : "3d434929bff39c87daf00e09e67d3330",
+  "time" : {
+    "start" : 1742933191311,
+    "stop" : 1742933192958,
+    "duration" : 1647
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать нового пользователя",
+      "time" : {
+        "start" : 1742933191312,
+        "stop" : 1742933191616,
+        "duration" : 304
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создаём пользователя ru.praktikum.yandex.model.User@533e8807",
+        "time" : {
+          "start" : 1742933191312,
+          "stop" : 1742933191616,
+          "duration" : 304
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "ru.praktikum.yandex.model.User@533e8807"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.yandex.model.User@533e8807"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Авторизация пользователя",
+      "time" : {
+        "start" : 1742933191616,
+        "stop" : 1742933191927,
+        "duration" : 311
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Логиним пользователя ru.praktikum.yandex.model.User@533e8807",
+        "time" : {
+          "start" : 1742933191616,
+          "stop" : 1742933191927,
+          "duration" : 311
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "ru.praktikum.yandex.model.User@533e8807"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.yandex.model.User@533e8807"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Обновление данных пользователя",
+      "time" : {
+        "start" : 1742933191927,
+        "stop" : 1742933192234,
+        "duration" : 307
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Обновляем данные пользователя ru.praktikum.yandex.model.User@4d4bac56 с токеном {token}",
+        "time" : {
+          "start" : 1742933191927,
+          "stop" : 1742933192234,
+          "duration" : 307
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "ru.praktikum.yandex.model.User@4d4bac56"
+        }, {
+          "name" : "accessToken",
+          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTMwY2M3OWVkMjgwMDAxYjViMTY2ZSIsImlhdCI6MTc0MjkzMzE5MSwiZXhwIjoxNzQyOTM0MzkxfQ.xhP4X3Y70AMHA4h3NDhIhYneMUQJCHj8Cj5rZ6oKVvk"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.yandex.model.User@4d4bac56"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTMwY2M3OWVkMjgwMDAxYjViMTY2ZSIsImlhdCI6MTc0MjkzMzE5MSwiZXhwIjoxNzQyOTM0MzkxfQ.xhP4X3Y70AMHA4h3NDhIhYneMUQJCHj8Cj5rZ6oKVvk"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удалить пользователя",
+      "time" : {
+        "start" : 1742933192235,
+        "stop" : 1742933192958,
+        "duration" : 723
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Удаляем пользователя c токеном {token}",
+        "time" : {
+          "start" : 1742933192235,
+          "stop" : 1742933192958,
+          "duration" : 723
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "accessToken",
+          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTMwY2M3OWVkMjgwMDAxYjViMTY2ZSIsImlhdCI6MTc0MjkzMzE5MSwiZXhwIjoxNzQyOTM0MzkxfQ.xhP4X3Y70AMHA4h3NDhIhYneMUQJCHj8Cj5rZ6oKVvk"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTMwY2M3OWVkMjgwMDAxYjViMTY2ZSIsImlhdCI6MTc0MjkzMzE5MSwiZXhwIjoxNzQyOTM0MzkxfQ.xhP4X3Y70AMHA4h3NDhIhYneMUQJCHj8Cj5rZ6oKVvk"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "users"
+  }, {
+    "name" : "testClass",
+    "value" : "users.UpdateUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "updateUserInfoWithLoginTest"
+  }, {
+    "name" : "suite",
+    "value" : "users.UpdateUserTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43P5CN5"
+  }, {
+    "name" : "thread",
+    "value" : "9512@DESKTOP-43P5CN5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87d1c00d359bb9cc.json",
+  "parameterValues" : [ ]
+}

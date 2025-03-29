@@ -1,0 +1,102 @@
+{
+  "uid" : "b7e81b099def50e8",
+  "name" : "Создание пользователя с отсутствующим параметром",
+  "fullName" : "users.CreateUserParameterizedTest.createUserWithoutRequiredFieldsTest[Пропущенное поле: Отсутствует password]",
+  "historyId" : "4cde1dbad8dcd711bef34f6a6bb07753",
+  "time" : {
+    "start" : 1742933185775,
+    "stop" : 1742933187044,
+    "duration" : 1269
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать нового пользователя",
+      "time" : {
+        "start" : 1742933185775,
+        "stop" : 1742933187044,
+        "duration" : 1269
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создаём пользователя ru.praktikum.yandex.model.User@42d7e8bc",
+        "time" : {
+          "start" : 1742933185775,
+          "stop" : 1742933187044,
+          "duration" : 1269
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "ru.praktikum.yandex.model.User@42d7e8bc"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.yandex.model.User@42d7e8bc"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "users"
+  }, {
+    "name" : "testClass",
+    "value" : "users.CreateUserParameterizedTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUserWithoutRequiredFieldsTest[Пропущенное поле: Отсутствует password]"
+  }, {
+    "name" : "suite",
+    "value" : "users.CreateUserParameterizedTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43P5CN5"
+  }, {
+    "name" : "thread",
+    "value" : "9512@DESKTOP-43P5CN5.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b7e81b099def50e8.json",
+  "parameterValues" : [ ]
+}
