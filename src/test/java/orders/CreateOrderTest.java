@@ -3,15 +3,15 @@ package orders;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.Response;
 import org.junit.*;
-import ru.praktikum.yandex.model.Order;
-import ru.praktikum.yandex.model.OrderResponse;
-import ru.praktikum.yandex.model.User;
-import ru.praktikum.yandex.model.UserCreateResponse;
+import ru.praktikum.yandex.model.*;
+import steps.IngredientSteps;
 import steps.OrderSteps;
 import steps.UserSteps;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 
 public class CreateOrderTest {
@@ -19,29 +19,35 @@ public class CreateOrderTest {
     private UserSteps userSteps;
     private OrderSteps orderSteps;
     private UserCreateResponse userCreateResponse;
-
-    private final String VALID_INGREDIENT_1 = "61c0c5a71d1f82001bdaaa6d";
-    private final String VALID_INGREDIENT_2 = "61c0c5a71d1f82001bdaaa6f";
-    private final String INVALID_INGREDIENT = "123invalid456hash789";
+    private IngredientSteps ingredientSteps;
+    private List<String> validIngredientIds;
 
     @Before
     public void setUp() {
         userSteps = new UserSteps();
         orderSteps = new OrderSteps();
+        ingredientSteps = new IngredientSteps();
 
         User user = new User("someuser987@yandex.ru", "qwerty123", "someuser987");
         Response response = userSteps.createUser(user);
         userCreateResponse = response.as(UserCreateResponse.class);
-
         Assert.assertEquals("Код ответа должен быть 200", 200, response.getStatusCode());
         Assert.assertTrue("success должно быть true", userCreateResponse.isSuccess());
         Assert.assertNotNull("Токен не должен быть null", userCreateResponse.getAccessToken());
+
+        Response ingredientsResponse = ingredientSteps.getIngredients();
+        Assert.assertEquals("Код ответа должен быть 200", 200, ingredientsResponse.getStatusCode());
+        IngredientsResponse ingredients = ingredientsResponse.as(IngredientsResponse.class);
+
+        validIngredientIds = new ArrayList<>();
+        validIngredientIds.add(ingredients.getData().get(0).getId());
+        validIngredientIds.add(ingredients.getData().get(1).getId());
     }
 
     @Test
     @DisplayName("Создание заказа с авторизацией и валидными ингредиентами")
     public void createOrderWithAuthAndValidIngredientsTest() {
-        Order order = new Order(Arrays.asList(VALID_INGREDIENT_1, VALID_INGREDIENT_2));
+        Order order = new Order(Arrays.asList(validIngredientIds.get(0), validIngredientIds.get(1)));
         String token = userCreateResponse.getAccessToken();
 
         Response response = orderSteps.createOrder(order, token);
@@ -58,7 +64,7 @@ public class CreateOrderTest {
     @Test
     @DisplayName("Создание заказа без авторизации")
     public void createOrderWithoutAuthTest() {
-        Order order = new Order(Collections.singletonList(VALID_INGREDIENT_1));
+        Order order = new Order(Collections.singletonList(validIngredientIds.get(0)));
         String noToken = "";
 
         Response response = orderSteps.createOrder(order, noToken);
@@ -75,7 +81,8 @@ public class CreateOrderTest {
     @Test
     @DisplayName("Создание заказа с невалидным хешем ингредиента")
     public void createOrderWithInvalidIngredientTest() {
-        Order order = new Order(Arrays.asList(VALID_INGREDIENT_1, INVALID_INGREDIENT));
+        String INVALID_INGREDIENT = "11231invalid45sdha789";
+        Order order = new Order(Arrays.asList(validIngredientIds.get(0), INVALID_INGREDIENT));
         String token = userCreateResponse.getAccessToken();
 
         Response response = orderSteps.createOrder(order, token);
